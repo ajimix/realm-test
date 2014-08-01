@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F3439C094A0426E9122E4BC /* libPods-RealmTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CB4B7D26B3447BBC4AF632 /* libPods-RealmTestTests.a */; };
-		33D8B70FEF02433FAE8C2C32 /* libPods-RealmTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB36BEA6A2D4371AFF5A667 /* libPods-RealmTest.a */; };
 		6900F520198A4FF7002FBD5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6900F51F198A4FF7002FBD5A /* Foundation.framework */; };
 		6900F522198A4FF7002FBD5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6900F521198A4FF7002FBD5A /* CoreGraphics.framework */; };
 		6900F524198A4FF7002FBD5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6900F523198A4FF7002FBD5A /* UIKit.framework */; };
@@ -24,7 +22,7 @@
 		6900F549198A4FF7002FBD5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6900F547198A4FF7002FBD5A /* InfoPlist.strings */; };
 		6900F556198A5103002FBD5A /* RLTCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900F555198A5103002FBD5A /* RLTCar.m */; };
 		6913E44D198A518C0010EDCC /* RLTCarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6913E44C198A518C0010EDCC /* RLTCarTest.m */; };
-		6913E451198A63C90010EDCC /* RLTCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6900F555198A5103002FBD5A /* RLTCar.m */; };
+		CD7274BBD9354112AE150F9C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4005AA41DBB427E95EA1D9D /* libPods.a */; };
 		FFDF87FA32C04BA7A3E1AA25 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4005AA41DBB427E95EA1D9D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		08CB4B7D26B3447BBC4AF632 /* libPods-RealmTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealmTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11149A5B94E64612B63D4D9E /* Pods-RealmTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmTest.xcconfig"; path = "Pods/Pods-RealmTest.xcconfig"; sourceTree = "<group>"; };
 		1DC9D25FA4844B928B3127C2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		6900F51C198A4FF7002FBD5A /* RealmTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6900F51F198A4FF7002FBD5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,7 +60,6 @@
 		6900F554198A5103002FBD5A /* RLTCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLTCar.h; sourceTree = "<group>"; };
 		6900F555198A5103002FBD5A /* RLTCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLTCar.m; sourceTree = "<group>"; };
 		6913E44C198A518C0010EDCC /* RLTCarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLTCarTest.m; sourceTree = "<group>"; };
-		727006CBDF1D4352A7B186CB /* Pods-RealmTestTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmTestTests.xcconfig"; path = "Pods/Pods-RealmTestTests.xcconfig"; sourceTree = "<group>"; };
 		8BB36BEA6A2D4371AFF5A667 /* libPods-RealmTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealmTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4005AA41DBB427E95EA1D9D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -76,7 +72,6 @@
 				6900F522198A4FF7002FBD5A /* CoreGraphics.framework in Frameworks */,
 				6900F524198A4FF7002FBD5A /* UIKit.framework in Frameworks */,
 				6900F520198A4FF7002FBD5A /* Foundation.framework in Frameworks */,
-				33D8B70FEF02433FAE8C2C32 /* libPods-RealmTest.a in Frameworks */,
 				FFDF87FA32C04BA7A3E1AA25 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -88,7 +83,7 @@
 				6900F53F198A4FF7002FBD5A /* XCTest.framework in Frameworks */,
 				6900F541198A4FF7002FBD5A /* UIKit.framework in Frameworks */,
 				6900F540198A4FF7002FBD5A /* Foundation.framework in Frameworks */,
-				2F3439C094A0426E9122E4BC /* libPods-RealmTestTests.a in Frameworks */,
+				CD7274BBD9354112AE150F9C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +97,6 @@
 				6900F544198A4FF7002FBD5A /* RealmTestTests */,
 				6900F51E198A4FF7002FBD5A /* Frameworks */,
 				6900F51D198A4FF7002FBD5A /* Products */,
-				11149A5B94E64612B63D4D9E /* Pods-RealmTest.xcconfig */,
-				727006CBDF1D4352A7B186CB /* Pods-RealmTestTests.xcconfig */,
 				1DC9D25FA4844B928B3127C2 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
@@ -316,7 +309,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-RealmTestTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A8FAEDDADB704FB89A846317 /* Check Pods Manifest.lock */ = {
@@ -352,7 +345,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6913E451198A63C90010EDCC /* RLTCar.m in Sources */,
 				6913E44D198A518C0010EDCC /* RLTCarTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,7 +487,7 @@
 		};
 		6900F552198A4FF7002FBD5A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 727006CBDF1D4352A7B186CB /* Pods-RealmTestTests.xcconfig */;
+			baseConfigurationReference = 1DC9D25FA4844B928B3127C2 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RealmTest.app/RealmTest";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -518,7 +510,7 @@
 		};
 		6900F553198A4FF7002FBD5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 727006CBDF1D4352A7B186CB /* Pods-RealmTestTests.xcconfig */;
+			baseConfigurationReference = 1DC9D25FA4844B928B3127C2 /* Pods.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RealmTest.app/RealmTest";
 				FRAMEWORK_SEARCH_PATHS = (
