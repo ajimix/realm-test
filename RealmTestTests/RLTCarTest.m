@@ -27,8 +27,14 @@
 }
 
 - (void)testExample {
-	// This crashes
 	RLMRealm *realm = [RLMRealm defaultRealm];
+
+	[realm beginWriteTransaction];
+	[RLTCar createInRealm:realm withObject:@{
+	     @"name": @"test"
+	 }];
+	[realm commitWriteTransaction];
+	// Object type RLTCar not persisted in realm
 }
 
 @end
