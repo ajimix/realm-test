@@ -17,9 +17,18 @@
 	RLMRealm *realm = [RLMRealm defaultRealm];
 
 	[realm beginWriteTransaction];
-	[RLTCar createInRealm:realm withObject:@{
-	     @"name": @"test"
-	 }];
+
+	// This works fine.
+//	[RLTCar createInRealm:realm withObject:@{
+//	     @"name": @"test",
+//	     @"zalala": @"this works"
+//	 }];
+
+	// This doesn't.
+	RLTCar *car = [RLTCar createInRealm:realm withObject:@{}];
+	car.name = @"test"; // Works
+	car.zalala = @"hello"; // Doesn't work
+
 	[realm commitWriteTransaction];
 
 	return YES;

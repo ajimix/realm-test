@@ -10,4 +10,5 @@
 
 @interface RLTCar : RLMObject
 @property (nonatomic) NSString *name;
+@property (nonatomic) NSString *zalala;
 @end

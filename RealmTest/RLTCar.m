@@ -10,4 +10,11 @@
 
 @implementation RLTCar
 
++ (NSDictionary *)defaultPropertyValues {
+	return @{
+			   @"name": @"",
+			   @"zalala": @""
+	};
+}
+
 @end
