@@ -5,7 +5,7 @@ PODS:
 
 DEPENDENCIES:
   - Realm (~> 0.84.0)
-  - Realm/Headers
+  - Realm/Headers (~> 0.84.0)
 
 SPEC CHECKSUMS:
   Realm: 097412d7bcbba45ad5037add12e0395136070d88
